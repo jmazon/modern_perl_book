@@ -176,8 +176,9 @@ step:
 =end programlisting
 
 This example disables strictures for the outer block as well as the inner
-block, the body of the function itself.  Only the assignment violates strict
-reference checking, so disable strictures for that operation alone.
+block, the body of the function itself.  Only the assignment needs violate
+strict reference checking, so it's preferable to disable strictures for
+that operation alone.
 
 =head3 Compile-time Manipulation
 
