@@ -44,6 +44,7 @@ array as a single unit so that C<push> can operate on the array in place.
 X<prototype>
 X<keywords; prototype>
 
+Builtin function
 C<prototype> takes the name of a function and returns a string representing its
 prototype.  If you cannot emulate that function (if it's a core keyword),
 C<prototype> will return C<undef>.  To see the prototype of a built-in keyword,
