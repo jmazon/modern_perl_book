@@ -180,7 +180,7 @@ calling context.  Consider the example:
 =begin programlisting
 
     {
-        our '$scope';
+        our $scope;
 
         sub inner
         {
